@@ -28,7 +28,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --noconfirm --onedir --windowed main.py
+          pyinstaller --noconfirm --onedir --windowed app.py
 
       - name: Zip the Dist Folder
         run: |
