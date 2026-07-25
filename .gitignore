@@ -1,0 +1,81 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Temporary
+*.tmp
+*.temp
+
+# SQLite
+*.sqlite3
+*.db
+
+# Excel Temporary Files
+~$*.xlsx
+~$*.xls
+
+# Output Files (optional)
+output/
+generated/
+
+# Saved Models (Uncomment if you DON'T want to upload models)
+# saved_models/
+# models/
+
+# Large files (optional)
+*.zip
+*.7z
+*.rar
+
+# Cache
+.cache/
+
+# PyInstaller
+*.spec
